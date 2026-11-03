@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday, Moulima 💖</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Cormorant+Garamond:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg1:#fff3f7;--bg2:#efe4ff;--ink:#5a2142;--soft:#8a5575;--card:rgba(255,255,255,.58);--line:rgba(214,120,170,.3);--pink:#f2709c;--violet:#b48cf0;--gold:#d49a32;--paper:#fffaf2;--pi:#5a3340;--a1:rgba(255,170,205,.6);--a2:rgba(195,165,255,.55);--a3:rgba(255,218,165,.5);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg1:#180a2b;--bg2:#3a0f47;--ink:#ffeef6;--soft:#e6c1d6;--card:rgba(255,255,255,.08);--line:rgba(255,160,210,.25);--pink:#ff7eb0;--gold:#f4c76a;--paper:#2b1337;--pi:#ffe9f2;--a1:rgba(255,80,160,.3);--a2:rgba(140,90,255,.32);--a3:rgba(255,170,90,.16);color-scheme:dark}}
+:root[data-theme="dark"]{--bg1:#180a2b;--bg2:#3a0f47;--ink:#ffeef6;--soft:#e6c1d6;--card:rgba(255,255,255,.08);--line:rgba(255,160,210,.25);--pink:#ff7eb0;--gold:#f4c76a;--paper:#2b1337;--pi:#ffe9f2;--a1:rgba(255,80,160,.3);--a2:rgba(140,90,255,.32);--a3:rgba(255,170,90,.16);color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100dvh;background:linear-gradient(165deg,var(--bg1),var(--bg2)) fixed var(--bg1);color:var(--ink);font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;font-size:1.2rem;overflow-x:hidden;-webkit-tap-highlight-color:transparent}
+body::before{content:"";position:fixed;inset:-25%;z-index:0;pointer-events:none;background:radial-gradient(34% 30% at 20% 25%,var(--a1),transparent),radial-gradient(30% 30% at 80% 30%,var(--a2),transparent),radial-gradient(36% 30% at 55% 85%,var(--a3),transparent);animation:dr 22s ease-in-out infinite alternate}
+@keyframes dr{to{transform:translate(4%,3%) rotate(8deg) scale(1.1)}}
+[hidden]{display:none!important}
+#fx{position:fixed;inset:0;pointer-events:none;z-index:9}
+.bg span{position:fixed;bottom:-50px;pointer-events:none;opacity:.4;animation:rise linear infinite;z-index:0}
+@keyframes rise{to{transform:translateY(-115vh) rotate(30deg)}}
+.stage{display:none;position:relative;z-index:1;min-height:100dvh;padding:30px 20px;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:20px;max-width:640px;margin:0 auto}
+.stage.on{display:flex;animation:in 1s ease both}
+@keyframes in{from{opacity:0;transform:translateY(10px) scale(.98)}}
+h1{font-family:"Dancing Script",cursive;font-size:clamp(2.4rem,10vw,4.2rem);line-height:1.05;margin:0;font-weight:600}
+h1 em{display:block;font-style:normal;font-size:1.45em;font-weight:700;background:linear-gradient(90deg,var(--pink),var(--violet),var(--gold),var(--pink));background-size:250%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 6s linear infinite}
+@keyframes sh{to{background-position:250%}}
+h2{font-family:"Dancing Script",cursive;font-size:2.5rem;margin:0;font-weight:600}
+h2::after{content:"❦";display:block;font-family:serif;font-size:1rem;color:var(--gold);margin-top:2px}
+p{margin:0;color:var(--soft);line-height:1.5;max-width:30ch;font-size:1.25rem}
+.gift{font-size:4.2rem;animation:bob 3s ease-in-out infinite;filter:drop-shadow(0 10px 18px rgba(242,112,156,.4))}
+@keyframes bob{50%{transform:translateY(-10px) rotate(3deg)}}
+.btn{font:inherit;font-weight:700;font-size:1.2rem;letter-spacing:.02em;border:0;color:#fff;padding:13px 30px;border-radius:99px;background:linear-gradient(135deg,var(--pink),var(--violet));box-shadow:0 10px 28px rgba(242,112,156,.38),inset 0 1px 0 rgba(255,255,255,.4);cursor:pointer;transition:transform .2s;display:inline-block}
+.btn:hover{transform:scale(1.05)}.btn:active{transform:scale(.96)}
+.btn.g{background:var(--card);color:var(--ink);box-shadow:none;border:1px solid var(--line)}
+.btn:focus-visible,.rc:focus-visible,.cd:focus-visible,.x:focus-visible,.lbl:focus-within{outline:3px solid var(--gold);outline-offset:3px}
+.glass{background:var(--card);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid var(--line);box-shadow:0 12px 40px rgba(190,80,140,.14)}
+#cake{width:min(290px,80vw);overflow:visible;filter:drop-shadow(0 14px 22px rgba(190,80,140,.28))}
+.cd{cursor:pointer}
+.fl{transform-box:fill-box;transform-origin:50% 100%;animation:fk .25s infinite alternate;filter:drop-shadow(0 0 9px #ffb703)}
+@keyframes fk{to{transform:scale(1.15,.9) rotate(4deg)}}
+.out .fl{display:none}
+.rg{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;width:100%}
+@media(min-width:520px){.rg,.gal{grid-template-columns:repeat(3,1fr)}}
+.rc{font:inherit;color:var(--ink);min-height:128px;border-radius:22px;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:12px;font-size:1.8rem}
+.rc b{font-family:"Dancing Script",cursive;font-size:1.7rem}
+.rc small{font-size:1.08rem;line-height:1.3;font-weight:700}
+.rc.open{background:linear-gradient(135deg,var(--pink),var(--violet));color:#fff;animation:pop .5s}
+@keyframes pop{50%{transform:scale(1.1)}}
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:22px 16px;width:100%;padding:8px 4px}
+.po{position:relative;background:#fff;padding:7px 7px 26px;border-radius:3px;box-shadow:0 10px 26px rgba(60,10,50,.28);transform:rotate(var(--r,0deg));cursor:zoom-in;transition:transform .25s}
+.po:hover{transform:rotate(0) scale(1.05);z-index:2}
+.po::before{content:"";position:absolute;top:-9px;left:50%;width:56px;height:17px;margin-left:-28px;background:rgba(255,214,140,.75);transform:rotate(-3deg)}
+.po::after{content:"♡";position:absolute;bottom:3px;left:0;right:0;color:#e0709a;font-size:1rem;line-height:1}
+.po img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
+.po.ph{background:var(--card);border:2px dashed var(--line);box-shadow:none;aspect-ratio:1;display:grid;place-items:center;color:var(--soft);cursor:default;padding:10px}
+.po.ph::before,.po.ph::after{display:none}
+.x{position:absolute;top:-10px;right:-10px;width:28px;height:28px;border-radius:50%;border:0;background:var(--pink);color:#fff;font-size:1.2rem;line-height:1;cursor:pointer;z-index:3}
+#lb{position:fixed;inset:0;z-index:20;background:rgba(25,6,35,.88);display:grid;place-items:center;cursor:zoom-out}
+#lb img{max-width:92vw;max-height:86dvh;border:9px solid #fff;border-radius:3px;box-shadow:0 20px 60px #000a}
+#pf{position:relative;width:100%;height:50dvh;border-radius:26px;overflow:hidden;touch-action:manipulation}
+.fh{position:absolute;top:-50px;font-size:2.4rem;background:none;border:0;padding:6px;cursor:pointer;animation:fall linear forwards}
+@keyframes fall{to{top:100%}}
+.sc{font-weight:700;font-size:1.35rem}
+.lt{white-space:pre-wrap;text-align:left;background:var(--paper);color:var(--pi);border-radius:8px;padding:28px 24px;font-size:1.5rem;line-height:1.55;min-height:220px;width:100%;font-family:"Dancing Script",cursive;font-weight:600;box-shadow:0 18px 50px rgba(120,30,90,.25),inset 0 0 0 1px var(--line);cursor:pointer}
+.row{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;align-items:center}
+.sm{font-size:1rem;min-height:1.3em}
+
+/* Animated photo memories page */
+.anim-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;width:100%;padding:8px 2px}
+.anim-card{position:relative;min-height:190px;padding:10px 10px 16px;border-radius:20px;background:var(--card);border:1px solid var(--line);box-shadow:0 12px 30px rgba(120,30,90,.13);overflow:hidden;perspective:900px}
+.anim-card img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:13px}
+.anim-card .anim-name{display:block;margin-top:10px;font-family:"Dancing Script",cursive;font-size:1.45rem;color:var(--ink)}
+.anim-card .anim-empty{aspect-ratio:4/5;border:2px dashed var(--line);border-radius:13px;display:flex;align-items:center;justify-content:center;padding:12px;color:var(--soft);font-size:1rem}
+.anim-card.float img{animation:photoFloat 4s ease-in-out infinite}
+.anim-card.heartbeat img{animation:photoBeat 2.8s ease-in-out infinite}
+.anim-card.flip img{animation:photoFlip 5s ease-in-out infinite;transform-style:preserve-3d}
+.anim-card.zoom img{animation:photoZoom 5s ease-in-out infinite alternate}
+.anim-card.fade img{animation:photoFade 4.5s ease-in-out infinite}
+@keyframes photoFloat{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-9px) rotate(1deg)}}
+@keyframes photoBeat{0%,100%{transform:scale(1)}8%{transform:scale(1.045)}16%{transform:scale(1)}25%{transform:scale(1.03)}35%{transform:scale(1)}}
+@keyframes photoFlip{0%,70%,100%{transform:rotateY(0)}35%{transform:rotateY(180deg)}}
+@keyframes photoZoom{from{transform:scale(.94)}to{transform:scale(1.04)}}
+@keyframes photoFade{0%,100%{opacity:.72;filter:blur(0)}50%{opacity:1;filter:blur(0)}}
+.anim-upload{display:none}
+.anim-add{display:inline-flex;align-items:center;justify-content:center;margin-top:9px;padding:7px 12px;border-radius:99px;background:linear-gradient(135deg,var(--pink),var(--violet));color:#fff;font-size:1rem;font-weight:700;cursor:pointer}
+.anim-card .x{top:7px;right:7px}
+@media(min-width:520px){.anim-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(prefers-reduced-motion:reduce){.anim-card img{animation:none!important}}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01s!important}}
+</style>
+</head>
+<body>
+<canvas id="fx"></canvas>
+<div class="bg" id="bg"></div>
+
+<section class="stage on">
+  <div class="gift">🎁</div>
+  <h1>Happy Birthday<em>Moulima</em></h1>
+  <p>I made something just for you. It only works if you play along…</p>
+  <button class="btn" onclick="go(1)">Open your present</button>
+</section>
+
+<section class="stage">
+  <h2>Make a wish, my love</h2>
+  <p>Close your eyes, wish for something big, then tap each flame to blow out the candles.</p>
+  <svg id="cake" viewBox="0 0 240 230" aria-label="Birthday cake with three candles">
+    <ellipse cx="120" cy="214" rx="108" ry="10" fill="#0003"/>
+    <rect x="30" y="140" width="180" height="70" rx="14" fill="#ff8fb8"/>
+    <rect x="55" y="92" width="130" height="52" rx="12" fill="#ffc2da"/>
+    <path d="M30 156q15 16 30 0t30 0 30 0 30 0 30 0 30 0" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
+    <path d="M55 106q13 14 26 0t26 0 26 0 26 0 26 0" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="70" cy="182" r="5" fill="#ffd166"/><circle cx="120" cy="190" r="5" fill="#7bdff2"/><circle cx="170" cy="182" r="5" fill="#ffd166"/>
+    <g class="cd" tabindex="0"><rect x="78" y="58" width="10" height="36" rx="3" fill="#7bdff2"/><ellipse class="fl" cx="83" cy="46" rx="7" ry="12" fill="#ffb703"/></g>
+    <g class="cd" tabindex="0"><rect x="115" y="58" width="10" height="36" rx="3" fill="#b794f6"/><ellipse class="fl" cx="120" cy="46" rx="7" ry="12" fill="#ffb703"/></g>
+    <g class="cd" tabindex="0"><rect x="152" y="58" width="10" height="36" rx="3" fill="#7bdff2"/><ellipse class="fl" cx="157" cy="46" rx="7" ry="12" fill="#ffb703"/></g>
+  </svg>
+  <p id="wn" style="min-height:1.5em"></p>
+  <button class="btn" id="n2" hidden onclick="go(2)">Next surprise</button>
+</section>
+
+<section class="stage">
+  <h2>Why you’re so loved</h2>
+  <p>Tap each heart to open it.</p>
+  <div class="rg" id="rg"></div>
+  <p id="r7" hidden>And reason number seven? It’s too big for words. Keep going…</p>
+  <button class="btn" id="n3" hidden onclick="go(3)">Next</button>
+</section>
+
+<section class="stage">
+  <h2>Our little memories</h2>
+  <p>Moments that made my heart smile. Tap a photo to see it bigger.</p>
+  <div class="gal" id="gal"></div>
+  <div class="row" id="own" hidden><label class="btn lbl">Add photos 📷<input type="file" id="fi" accept="image/*" multiple hidden></label></div>
+  <p class="sm" id="gm"></p>
+  <button class="btn" onclick="go(4)">Next</button>
+</section>
+
+<section class="stage">
+  <h2>Memories in motion</h2>
+  <p>Five little moments, each with its own kind of magic. Add your favourite pictures and watch them come alive. 💞</p>
+  <div class="anim-grid" id="animGrid"></div>
+  <p class="sm" id="animMsg">Add up to five pictures to make this page yours.</p>
+  <button class="btn" onclick="go(5)">Next surprise</button>
+</section>
+
+<section class="stage">
+  <h2>Catch my love</h2>
+  <p>Hearts are falling for you. Catch 10 to unlock your letter.</p>
+  <div class="sc">Caught: <span id="sc">0</span> / 10</div>
+  <div id="pf" class="glass"></div>
+</section>
+
+<section class="stage">
+  <h2>A letter for you</h2>
+  <div class="lt" id="lt" title="Tap to show all"></div>
+  <div class="row" id="fin" hidden>
+    <button class="btn" onclick="fire()">Fireworks 🎆</button>
+    <button class="btn g" onclick="location.reload()">Play again 🔁</button>
+  </div>
+</section>
+
+<div id="lb" hidden onclick="this.hidden=true"><img alt="Moulima"></div>
+<script id="pd" type="application/json">[]</script>
+<script id="ad" type="application/json">
+[
+  "images/memory1.jpg",
+  "images/memory2.jpg",
+  "images/memory3.jpg",
+  "images/memory4.jpg",
+  "images/memory5.jpg"
+]
+</script>
+<script>
+const SRC="<!DOCTYPE html>\n"+document.documentElement.outerHTML;
+const C={
+  wish:"Your wish is safe with me 🤫",
+  reasons:[
+    "Your smile turns an ordinary day into a celebration.",
+    "You listen like every word I say matters.",
+    "You make me want to be a better person.",
+    "Even your silence feels like home.",
+    "You laugh at my silly jokes, even the bad ones.",
+    "Because with you, I get to be completely myself."
+  ],
+  letter:"My dearest Moulima,\n\nToday the world celebrates the day it got you, and I’m the luckiest person in it. You turn ordinary moments into my favourite memories.\n\nI don’t have perfect words, so I built you this tiny corner of the internet instead, just to say: you are loved, you are seen, and you are so, so special to me.\n\nHappy birthday, my love. Here’s to every laugh, every adventure, and every year with you.\n\nForever yours ❤️"
+};
+const $=s=>document.querySelector(s),st=[...document.querySelectorAll(".stage")];
+let photos=[],animPhotos=[],art=null,user=null,own=false;
+try{photos=JSON.parse($("#pd").textContent)}catch(e){}
+try{animPhotos=JSON.parse($("#ad").textContent)}catch(e){}
+const cv=$("#fx"),cx=cv.getContext("2d");let P=[];
+function rs(){cv.width=innerWidth;cv.height=innerHeight}rs();addEventListener("resize",rs);
+const cols=["#ff4d8d","#ffd166","#7bdff2","#b794f6","#ff9f1c","#ffffff"];
+function burst(x,y,n=40){for(let i=0;i<n;i++){const a=Math.random()*6.28,s=2+Math.random()*7;P.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s-3,l:1,d:.008+Math.random()*.012,s:6+Math.random()*8,c:cols[i%6],h:Math.random()<.4})}}
+(function loop(){cx.clearRect(0,0,cv.width,cv.height);P=P.filter(p=>p.l>0);for(const p of P){p.x+=p.vx;p.y+=p.vy;p.vy+=.12;p.vx*=.99;p.l-=p.d;cx.globalAlpha=Math.max(p.l,0);if(p.h){cx.font=p.s*2+"px serif";cx.fillText("💖",p.x,p.y)}else{cx.fillStyle=p.c;cx.fillRect(p.x,p.y,p.s,p.s*.5)}}requestAnimationFrame(loop)})();
+addEventListener("pointermove",e=>{if(Math.random()<.35)P.push({x:e.clientX,y:e.clientY,vx:Math.random()-.5,vy:-1.5,l:1,d:.03,s:6,h:1})});
+addEventListener("pointerdown",e=>burst(e.clientX,e.clientY,8));
+for(let i=0;i<14;i++){const s=document.createElement("span");s.textContent=["💗","✨","🌸","💖"][i%4];s.style.cssText=`left:${Math.random()*96}%;font-size:${16+Math.random()*22}px;animation-duration:${10+Math.random()*10}s;animation-delay:-${Math.random()*15}s`;$("#bg").append(s)}
+
+let AC;function tune(){try{AC=AC||new AudioContext();const n=[392,392,440,392,523,494,392,392,440,392,587,523,392,392,784,659,523,494,440,698,698,659,523,587,523],d=[.75,.25,1,1,1,2,.75,.25,1,1,1,2,.75,.25,1,1,1,1,2,.75,.25,1,1,1,2];let t=AC.currentTime+.1;n.forEach((f,i)=>{const o=AC.createOscillator(),g=AC.createGain(),L=d[i]*.36;o.type="triangle";o.frequency.value=f;o.connect(g);g.connect(AC.destination);g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(.16,t+.03);g.gain.exponentialRampToValueAtTime(.0001,t+L);o.start(t);o.stop(t+L+.05);t+=L})}catch(e){}}
+
+let iv;
+function go(n,force){if(n==3&&!force&&!photos.length&&!own)n=4;st.forEach((s,i)=>s.classList.toggle("on",i==n));scrollTo(0,0);burst(innerWidth/2,innerHeight/2,50);if(n==1)tune();if(n==3)draw();if(n==4)drawAnim();if(n==5)game();if(n==6)typeIt()}
+
+let lit=3;
+document.querySelectorAll(".cd").forEach(g=>{const f=()=>{if(g.classList.contains("out"))return;g.classList.add("out");const r=g.getBoundingClientRect();burst(r.x+r.width/2,r.y,12);if(!--lit){burst(innerWidth/2,innerHeight/2,140);burst(innerWidth*.2,innerHeight/3,70);burst(innerWidth*.8,innerHeight/3,70);$("#wn").textContent=C.wish;$("#n2").hidden=false}};g.onclick=f;g.onkeydown=e=>{if(e.key=="Enter"||e.key==" ")f()}});
+
+let op=0;C.reasons.forEach((t,i)=>{const b=document.createElement("button");b.className="rc glass";b.innerHTML=`<b>${i+1}</b><span>💗</span>`;b.onclick=()=>{if(b.dataset.o)return;b.dataset.o=1;b.classList.add("open");b.innerHTML=`<small>${t}</small>`;const r=b.getBoundingClientRect();burst(r.x+r.width/2,r.y+r.height/2,16);if(++op==C.reasons.length){$("#r7").hidden=false;$("#n3").hidden=false}};$("#rg").append(b)});
+
+/* photos */
+function draw(){const g=$("#gal"),R=[-3,2,-1.5,3,-2,1.5];g.innerHTML="";photos.forEach((s,i)=>{const d=document.createElement("div"),im=new Image();d.className="po";d.style.setProperty("--r",R[i%6]+"deg");im.src=s;im.alt="Moulima";d.append(im);d.onclick=()=>{$("#lb img").src=s;$("#lb").hidden=false};if(own){const x=document.createElement("button");x.className="x";x.textContent="×";x.setAttribute("aria-label","Remove photo");x.onclick=e=>{e.stopPropagation();photos.splice(i,1);save()};d.append(x)}g.append(d)});if(!photos.length&&own)for(let i=0;i<4;i++){const d=document.createElement("div");d.className="po ph";d.textContent="Your photo here 💕";g.append(d)}$("#own").hidden=!own}
+function shrink(f){return new Promise(r=>{const i=new Image();i.onload=()=>{const k=Math.min(1,900/Math.max(i.width,i.height)),c=document.createElement("canvas");c.width=i.width*k;c.height=i.height*k;c.getContext("2d").drawImage(i,0,0,c.width,c.height);URL.revokeObjectURL(i.src);r(c.toDataURL("image/jpeg",.78))};i.src=URL.createObjectURL(f)})}
+async function save(){draw();if(!art)return;try{sessionStorage.setItem("g","1")}catch(e){}$("#gm").textContent="Saving your photos… ✨";try{const updated=SRC.replace(/(<script id="pd"[^>]*>)[\s\S]*?(<\/script>)/,(m,a,b)=>a+JSON.stringify(photos)+b).replace(/(<script id="ad"[^>]*>)[\s\S]*?(<\/script>)/,(m,a,b)=>a+JSON.stringify(animPhotos)+b);await art.publish(updated)}catch(e){$("#gm").textContent=e.code=="too_large"?"That’s too many photos for one page. Try fewer or remove some.":e.code=="conflict"?"":"Couldn’t save just now. Please try again."}}
+$("#fi").onchange=async e=>{const fs=[...e.target.files];if(!fs.length)return;$("#gm").textContent="Preparing photos…";for(const f of fs){if(photos.length>=20)break;photos.push(await shrink(f))}save()};
+
+/* Five animated photo slots */
+const animKinds=[
+  {kind:"float",name:"Floating memories",hint:"A gentle little float"},
+  {kind:"heartbeat",name:"Heartbeat",hint:"A soft double pulse"},
+  {kind:"flip",name:"A little 3D magic",hint:"A playful flip"},
+  {kind:"zoom",name:"Closer to my heart",hint:"A dreamy zoom"},
+  {kind:"fade",name:"Magical moments",hint:"A soft glowing fade"}
+];
+function drawAnim(){
+  const grid=$("#animGrid");if(!grid)return;grid.innerHTML="";
+  animKinds.forEach((item,i)=>{
+    const card=document.createElement("div");card.className="anim-card "+item.kind;
+    if(animPhotos[i]){
+      const im=new Image();im.src=animPhotos[i];im.alt=item.name;card.append(im);
+    }else{
+      const empty=document.createElement("div");empty.className="anim-empty";empty.textContent="Your picture goes here 💗";card.append(empty);
+    }
+    const name=document.createElement("span");name.className="anim-name";name.textContent=item.name;card.append(name);
+    if(own){
+      const label=document.createElement("label");label.className="anim-add";label.textContent=animPhotos[i]?"Change picture":"Add picture +";
+      const input=document.createElement("input");input.type="file";input.accept="image/*";input.className="anim-upload";
+      input.onchange=async e=>{const f=e.target.files&&e.target.files[0];if(!f)return;$("#animMsg").textContent="Preparing your picture… ✨";animPhotos[i]=await shrink(f);await saveAnim()};
+      label.append(input);card.append(label);
+      if(animPhotos[i]){const del=document.createElement("button");del.className="x";del.type="button";del.textContent="×";del.setAttribute("aria-label","Remove picture");del.onclick=()=>{animPhotos[i]="";saveAnim()};card.append(del)}
+    }
+    grid.append(card);
+  });
+  if(!own)$("#animMsg").textContent="A little gallery of moments, made to move. 💕";
+}
+async function saveAnim(){
+  drawAnim();if(!art)return;
+  $("#animMsg").textContent="Saving your animated memories… ✨";
+  const updated=SRC
+    .replace(/(<script id="pd"[^>]*>)[\s\S]*?(<\/script>)/,(m,a,b)=>a+JSON.stringify(photos)+b)
+    .replace(/(<script id="ad"[^>]*>)[\s\S]*?(<\/script>)/,(m,a,b)=>a+JSON.stringify(animPhotos)+b);
+  try{await art.publish(updated);$("#animMsg").textContent="Your memories are saved. 💗"}
+  catch(e){$("#animMsg").textContent=e.code=="too_large"?"These pictures are a little too large. Try smaller images.":"Couldn’t save just now. Please try again."}
+}
+
+(async()=>{try{if(!window.claude)return;art=await claude.use("artifact");user=await claude.use("user");own=!!(art&&user&&user.canEdit());if(own){$("#gm").textContent="Only you can see the add and remove buttons. Moulima just sees the photos.";draw();drawAnim()}}catch(e){}})();
+try{if(sessionStorage.getItem("g")){sessionStorage.removeItem("g");go(3,1)}}catch(e){}
+
+function game(){const G=$("#pf");let sc=0;iv=setInterval(()=>{const h=document.createElement("button");h.className="fh";h.textContent=["💖","💗","💘","🌸","⭐"][Math.random()*5|0];h.style.left=Math.random()*(G.clientWidth-56)+"px";h.style.animationDuration=3.2+Math.random()*2.4+"s";h.onpointerdown=e=>{e.stopPropagation();burst(e.clientX,e.clientY,18);h.remove();$("#sc").textContent=++sc;if(sc>=10){clearInterval(iv);G.innerHTML="";burst(innerWidth/2,innerHeight/2,160);setTimeout(()=>go(6),1000)}};h.onanimationend=()=>h.remove();G.append(h)},600)}
+
+function typeIt(){const el=$("#lt"),t=C.letter;let i=0;const done=()=>{clearInterval(iv);el.textContent=t;$("#fin").hidden=false};iv=setInterval(()=>{i+=2;el.textContent=t.slice(0,i);if(i>=t.length)done()},30);el.onclick=done}
+function fire(){let k=0;const f=setInterval(()=>{burst(Math.random()*innerWidth,Math.random()*innerHeight*.6,70);if(++k>12)clearInterval(f)},350)}
+</script>
+</body>
+</html>
