@@ -227,6 +227,8 @@ function game(){const G=$("#pf");let sc=0;iv=setInterval(()=>{const h=document.c
 
 function typeIt(){const el=$("#lt"),t=C.letter;let i=0;const done=()=>{clearInterval(iv);el.textContent=t;$("#fin").hidden=false};iv=setInterval(()=>{i+=2;el.textContent=t.slice(0,i);if(i>=t.length)done()},30);el.onclick=done}
 function fire(){let k=0;const f=setInterval(()=>{burst(Math.random()*innerWidth,Math.random()*innerHeight*.6,70);if(++k>12)clearInterval(f)},350)}
+  const song=new Audio("song.mp3");song.loop=true;
+function tune(){song.currentTime=0;song.play().catch(()=>{})}
 </script>
 </body>
 </html>
