@@ -176,7 +176,7 @@ const $=s=>document.querySelector(s),st=[...document.querySelectorAll(".stage")]
    Animated page: images/memory1.jpg ... memory5.jpg
    Extensions tried: jpg, jpeg, png, webp, JPG. Names are case-sensitive on GitHub.
    Add ?debug to the page URL to see which files are missing. */
-const IMG_DIR="images/",GALLERY_MAX=10,EXT=["jpg","jpeg","png","webp","JPG"],DEBUG=location.search.includes("debug");
+const IMG_DIR="",GALLERY_MAX=10,EXT=["jpg","jpeg","png","webp","JPG"],DEBUG=location.search.includes("debug");
 const find=(n,k=0)=>k>=EXT.length?(console.warn("Image not found:",IMG_DIR+n),Promise.resolve(null)):new Promise(r=>{const i=new Image();i.onload=()=>r(i.src);i.onerror=()=>r(null);i.src=IMG_DIR+n+"."+EXT[k]}).then(u=>u||find(n,k+1));
 let photos=[];
 Promise.all(Array.from({length:GALLERY_MAX},(_,i)=>find("photo"+(i+1)))).then(a=>photos=a.filter(Boolean));
